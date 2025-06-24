@@ -83,7 +83,9 @@ body {
       @apply flex-center lg:gap-12 gap-7;
     }
   }
-
+  .container {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
   .noisy {
     @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
   }
